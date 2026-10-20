@@ -1,0 +1,19 @@
+cell_cols: ['skin']
+
+                      mean        se  mean_width
+score_type                                      
+global            0.908846  0.008527   75.058594
+locally_adaptive  0.912776  0.007269   75.831768
+
+Conditional coverage by score_type:
+
+                       coverage      width        err
+score_type       skin                                
+global           3     0.938280  75.058594  10.760203
+                 4     0.944111  75.195312  13.513313
+                 5     0.871667  75.058594  16.297852
+                 6     0.842917  75.058594  18.090454
+locally_adaptive 3     0.943992  75.571318  10.760203
+                 4     0.953027  75.050665  13.513313
+                 5     0.876250  77.152046  16.297852
+                 6     0.839583  76.200059  18.090454

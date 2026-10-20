@@ -1,0 +1,12 @@
+csv: results\day_r1_matched\mmpd_main\mmpd_full_n20.tidy.csv
+features: ['hr_pred', 'unc_mean', 'unc_max', 'unc_p90', 'unc_consistent', 'n_chunks'] + one-hot['skin', 'state', 'light']  cells: ['skin']  alpha: 0.1  n_cal_subjects: 12 (half train / half conf)  seeds: 10
+GBR: n_estimators=300 max_depth=3 lr=0.05 min_samples_leaf=10
+
+marginal coverage = 0.937 +/- 0.011
+mean width  = 65.8 BPM   median width = 64.5 BPM
+
+worst-cell coverage = 0.895 @ 6   range [0.895, 0.963]  cells outside +/-0.05: 2/4
+    skin=3                   cov=0.951 width=  64.0  n~211
+    skin=4                   cov=0.963 width=  64.0  n~47
+    skin=5                   cov=0.914 width=  70.7  n~80
+    skin=6                   cov=0.895 width=  67.5  n~70

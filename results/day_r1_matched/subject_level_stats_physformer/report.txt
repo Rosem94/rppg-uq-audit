@@ -1,0 +1,17 @@
+Input: results\day_r1_matched\mmpd_physformer_per_trial_lacp.csv
+Unique trials: 647
+Dual-annotated subjects: ['subject24']
+
+Fitzpatrick 3 minus 6, subjects 17 / 6
+  pooled       12.67 pp  95% CI [2.59, 23.29]  one-sided permutation p = 0.0089
+  subject_mean 12.67 pp  95% CI [2.60, 23.30]  one-sided permutation p = 0.0091
+  GEE coef -1.258  robust SE 0.421  p = 0.0028
+
+Pairwise contrasts (equal subject weight, Holm over 3):
+contrast  n_ref  n_cmp excluded_overlap  estimate_pp  ci_low_pp  ci_high_pp  p_one_sided  p_holm  reject_holm_0.05
+     3-4     16      4        subject24       1.4497    -6.9035     12.2348       0.3642  0.5215             False
+     3-5     17      6                        2.9079    -5.9366     15.6793       0.2607  0.5215             False
+     3-6     17      6                       12.6745     2.5971     23.2996       0.0091  0.0273              True
+
+Fitzpatrick 6, walking: 0.564  95% CI [0.287, 0.837]  subjects 6
+  per subject: {'subject14': 0.0, 'subject15': 1.0, 'subject16': 0.438, 'subject26': 1.0, 'subject30': 0.583, 'subject8': 0.361}

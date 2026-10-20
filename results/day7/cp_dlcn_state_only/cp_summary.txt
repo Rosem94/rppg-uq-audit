@@ -1,0 +1,15 @@
+cell_cols: ['state']
+
+                      mean        se  mean_width
+score_type                                      
+global            0.907373  0.009972   50.625000
+locally_adaptive  0.904218  0.009783   48.966222
+
+Conditional coverage by score_type:
+
+                        coverage      width        err
+score_type       state                                
+global           1      0.952941  50.625000   5.742618
+                 2      0.861276  50.625000  10.703220
+locally_adaptive 1      0.948162  48.618884   5.742618
+                 2      0.859756  49.317771  10.703220

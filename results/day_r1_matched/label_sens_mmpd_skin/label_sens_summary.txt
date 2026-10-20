@@ -1,0 +1,34 @@
+csv: results\day5_mmpd\mmpd_full_n20.tidy.csv
+cell_cols: ['skin']  sigma: unc_mean  alpha: 0.1  n_cal_subjects: 12  seeds: 10  reps: 5
+
+[f=0.0] marginal=0.929  width=81.6  worst-cell=0.921 @ 3  cells<0.85: 0/4
+    skin=3                   cov=0.921 width=  68.8
+    skin=4                   cov=0.938 width=  77.6
+    skin=5                   cov=0.935 width=  99.4
+    skin=6                   cov=0.924 width= 100.3
+    selective @rho=0.5: naive MAE 12.02 | Mondrian 10.71 (benefit +1.32) | cellMAExsigma 11.04 (benefit +0.98)
+    worst-cell retention: naive 0.518 | Mondrian 0.027 | cellMAExsigma 0.065
+
+[f=0.1] marginal=0.929  width=82.3  worst-cell=0.918 @ 6  cells<0.85: 0/4
+    skin=3                   cov=0.925 width=  71.2
+    skin=4                   cov=0.940 width=  78.4
+    skin=5                   cov=0.932 width=  98.0
+    skin=6                   cov=0.918 width=  98.3
+    selective @rho=0.5: naive MAE 12.02 | Mondrian 11.01 (benefit +1.02) | cellMAExsigma 11.25 (benefit +0.78)
+    worst-cell retention: naive 0.518 | Mondrian 0.076 | cellMAExsigma 0.107
+
+[f=0.2] marginal=0.929  width=82.9  worst-cell=0.912 @ 6  cells<0.85: 0/4
+    skin=3                   cov=0.929 width=  73.3
+    skin=4                   cov=0.943 width=  79.7
+    skin=5                   cov=0.929 width=  96.5
+    skin=6                   cov=0.912 width=  96.5
+    selective @rho=0.5: naive MAE 12.02 | Mondrian 11.27 (benefit +0.75) | cellMAExsigma 11.50 (benefit +0.52)
+    worst-cell retention: naive 0.518 | Mondrian 0.138 | cellMAExsigma 0.158
+
+[f=0.3] marginal=0.932  width=83.5  worst-cell=0.905 @ 6  cells<0.85: 0/4
+    skin=3                   cov=0.936 width=  75.6
+    skin=4                   cov=0.943 width=  80.1
+    skin=5                   cov=0.928 width=  95.1
+    skin=6                   cov=0.905 width=  94.9
+    selective @rho=0.5: naive MAE 12.02 | Mondrian 11.65 (benefit +0.38) | cellMAExsigma 11.82 (benefit +0.20)
+    worst-cell retention: naive 0.518 | Mondrian 0.211 | cellMAExsigma 0.222

@@ -1,0 +1,16 @@
+csv: results\day_r1_matched\dlcn_main.tidy.csv
+features: ['hr_pred', 'unc_mean', 'unc_max', 'unc_p90', 'unc_consistent', 'n_chunks'] + one-hot['light', 'state']  cells: ['light', 'state']  alpha: 0.1  n_cal_subjects: 30 (half train / half conf)  seeds: 10
+GBR: n_estimators=300 max_depth=3 lr=0.05 min_samples_leaf=10
+
+marginal coverage = 0.898 +/- 0.009
+mean width  = 40.1 BPM   median width = 38.5 BPM
+
+worst-cell coverage = 0.783 @ (np.int64(4), np.int64(2))   range [0.783, 0.965]  cells outside +/-0.05: 3/8
+    light=1,state=1          cov=0.950 width=  35.2  n~68
+    light=1,state=2          cov=0.940 width=  41.1  n~67
+    light=2,state=1          cov=0.922 width=  38.2  n~68
+    light=2,state=2          cov=0.847 width=  44.1  n~67
+    light=3,state=1          cov=0.965 width=  35.5  n~68
+    light=3,state=2          cov=0.863 width=  43.9  n~67
+    light=4,state=1          cov=0.910 width=  38.7  n~68
+    light=4,state=2          cov=0.783 width=  44.4  n~67

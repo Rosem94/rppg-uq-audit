@@ -1,0 +1,44 @@
+In-distribution MMPD-trained -> MMPD test (subject-disjoint)
+pickle: mc_results\mmpd_matched_mmpd_test_n20.pkl
+chunks: 1096/1096 valid; subjects: [29, 30, 31, 32, 33]
+Aggregate MAE 8.745 BPM (std 15.549); mean sigma 0.1042
+HR true mean 90.3, range [45.0, 135.0]
+
+--- Per held-out subject ---
+ subject_num  skin  n_chunks     mae  sigma
+          29     3       216  7.1875 0.1011
+          30     6       220 10.1761 0.1016
+          31     5       220 12.4773 0.1055
+          32     3       220  4.4489 0.1084
+          33     3       220  9.4091 0.1044
+
+--- Cells by skin ---
+ skin  n_chunks  n_subj    mae  sigma
+    3       656       3  7.014 0.1047
+    5       220       1 12.477 0.1055
+    6       220       1 10.176 0.1016
+[skin] cells with n>=10: 3/3; MAE ratio 1.78x, sigma ratio 1.04x, eta = 1.71
+
+--- Cells by motion ---
+ motion  n_chunks  n_subj    mae  sigma
+      1       440       5  3.835 0.1084
+      2       220       5 12.733 0.0868
+      3       220       5  2.710 0.1083
+      4       216       5 20.833 0.1092
+[motion] cells with n>=10: 4/4; MAE ratio 7.69x, sigma ratio 1.26x, eta = 6.11
+
+--- Cells by exercise ---
+ exercise  n_chunks  n_subj    mae  sigma
+        1       220       5  3.477 0.1118
+        2       876       5 10.068 0.1023
+[exercise] cells with n>=10: 2/2; MAE ratio 2.90x, sigma ratio 1.09x, eta = 2.65
+
+--- Cells by light ---
+ light  n_chunks  n_subj    mae  sigma
+     1       271       5  6.850 0.1051
+     2       275       5 10.227 0.1030
+     3       275       5  9.982 0.1034
+     4       275       5  7.895 0.1053
+[light] cells with n>=10: 4/4; MAE ratio 1.49x, sigma ratio 1.02x, eta = 1.46
+
+Chunk-level Spearman rho(sigma, |err|) = -0.085

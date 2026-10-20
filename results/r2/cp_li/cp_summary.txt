@@ -1,0 +1,19 @@
+cell_cols: ['light']
+
+                      mean        se  mean_width
+score_type                                      
+global            0.919416  0.008073    77.34375
+locally_adaptive  0.923838  0.006490    78.25105
+
+Conditional coverage by score_type:
+
+                        coverage      width        err
+score_type       light                                
+global           1      0.924383  77.343750  12.480030
+                 2      0.935908  77.343750  13.401634
+                 3      0.938927  77.343750  11.493428
+                 4      0.877714  77.343750  15.466239
+locally_adaptive 1      0.922460  77.638478  12.480030
+                 2      0.934880  78.533190  13.401634
+                 3      0.950578  78.606520  11.493428
+                 4      0.886714  78.228413  15.466239

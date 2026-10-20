@@ -1,0 +1,50 @@
+csv: results\day_r1_matched\dlcn_main.tidy.csv
+cell_cols: ['light', 'state']  sigma: unc_mean  alpha: 0.1  n_cal_subjects: 30  seeds: 10  reps: 5
+
+[f=0.0] marginal=0.933  width=57.6  worst-cell=0.905 @ (4, 2)  cells<0.85: 0/8
+    light=1,state=1          cov=0.925 width=  19.1
+    light=1,state=2          cov=0.945 width=  56.2
+    light=2,state=1          cov=0.931 width=  48.4
+    light=2,state=2          cov=0.933 width=  77.7
+    light=3,state=1          cov=0.953 width=  56.0
+    light=3,state=2          cov=0.939 width=  70.1
+    light=4,state=1          cov=0.932 width=  53.6
+    light=4,state=2          cov=0.905 width=  80.5
+    selective @rho=0.5: naive MAE 6.26 | Mondrian 6.07 (benefit +0.19) | cellMAExsigma 5.37 (benefit +0.90)
+    worst-cell retention: naive 0.161 | Mondrian 0.015 | cellMAExsigma 0.000
+
+[f=0.1] marginal=0.938  width=60.8  worst-cell=0.910 @ (4, 2)  cells<0.85: 0/8
+    light=1,state=1          cov=0.931 width=  25.3
+    light=1,state=2          cov=0.950 width=  58.9
+    light=2,state=1          cov=0.938 width=  52.9
+    light=2,state=2          cov=0.938 width=  79.7
+    light=3,state=1          cov=0.955 width=  59.1
+    light=3,state=2          cov=0.942 width=  71.8
+    light=4,state=1          cov=0.939 width=  57.6
+    light=4,state=2          cov=0.910 width=  82.0
+    selective @rho=0.5: naive MAE 6.26 | Mondrian 6.17 (benefit +0.10) | cellMAExsigma 5.50 (benefit +0.76)
+    worst-cell retention: naive 0.161 | Mondrian 0.033 | cellMAExsigma 0.000
+
+[f=0.2] marginal=0.944  width=64.2  worst-cell=0.917 @ (4, 2)  cells<0.85: 0/8
+    light=1,state=1          cov=0.939 width=  31.6
+    light=1,state=2          cov=0.953 width=  61.8
+    light=2,state=1          cov=0.944 width=  58.0
+    light=2,state=2          cov=0.942 width=  81.6
+    light=3,state=1          cov=0.962 width=  61.9
+    light=3,state=2          cov=0.945 width=  73.4
+    light=4,state=1          cov=0.948 width=  62.1
+    light=4,state=2          cov=0.917 width=  83.9
+    selective @rho=0.5: naive MAE 6.26 | Mondrian 6.36 (benefit -0.09) | cellMAExsigma 5.72 (benefit +0.54)
+    worst-cell retention: naive 0.161 | Mondrian 0.062 | cellMAExsigma 0.000
+
+[f=0.3] marginal=0.947  width=67.5  worst-cell=0.922 @ (4, 2)  cells<0.85: 0/8
+    light=1,state=1          cov=0.944 width=  38.5
+    light=1,state=2          cov=0.955 width=  64.3
+    light=2,state=1          cov=0.949 width=  62.9
+    light=2,state=2          cov=0.946 width=  83.6
+    light=3,state=1          cov=0.962 width=  64.8
+    light=3,state=2          cov=0.945 width=  74.9
+    light=4,state=1          cov=0.951 width=  65.9
+    light=4,state=2          cov=0.922 width=  85.6
+    selective @rho=0.5: naive MAE 6.26 | Mondrian 6.84 (benefit -0.57) | cellMAExsigma 6.04 (benefit +0.22)
+    worst-cell retention: naive 0.161 | Mondrian 0.165 | cellMAExsigma 0.000

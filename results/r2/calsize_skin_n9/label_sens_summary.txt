@@ -1,0 +1,10 @@
+csv: results\day5_mmpd\mmpd_full_n20.tidy.csv
+cell_cols: ['skin']  sigma: unc_mean  alpha: 0.1  n_cal_subjects: 9  seeds: 10  reps: 5
+
+[f=0.0] marginal=0.917  width=81.5  worst-cell=0.896 @ 3  cells<0.85: 0/4
+    skin=3                   cov=0.896 width=  68.5
+    skin=4                   cov=0.935 width=  77.6
+    skin=5                   cov=0.938 width= 101.0
+    skin=6                   cov=0.946 width= 103.0
+    selective @rho=0.5: naive MAE 12.09 | Mondrian 11.38 (benefit +0.71) | cellMAExsigma 11.68 (benefit +0.41)
+    worst-cell retention: naive 0.525 | Mondrian 0.085 | cellMAExsigma 0.098

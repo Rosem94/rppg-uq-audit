@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the article."
+title: "rppg-uq-audit: code and per-trial results for cell-aware conformal prediction in rPPG"
+version: "1.0"
+date-released: "2026-10-20"
+repository-code: "https://github.com/Rosem94/rppg-uq-audit"
+license: MIT
+authors:
+  - given-names: Raushan-Rose
+    family-names: Myrzashova
+  - given-names: Rencheng
+    family-names: Song
+  - given-names: Xi
+    family-names: Wei
+  - given-names: Wei
+    family-names: Fan
+  - given-names: Yu
+    family-names: Liu
+  - given-names: Juan
+    family-names: Cheng
+preferred-citation:
+  type: article
+  title: "Cell-Aware Conformal Prediction for Demographic Reliability Assessment in Remote Photoplethysmography"
+  journal: "IEEE Journal of Biomedical and Health Informatics"
+  status: submitted
+  authors:
+    - given-names: Raushan-Rose
+      family-names: Myrzashova
+    - given-names: Rencheng
+      family-names: Song
+    - given-names: Xi
+      family-names: Wei
+    - given-names: Wei
+      family-names: Fan
+    - given-names: Yu
+      family-names: Liu
+    - given-names: Juan
+      family-names: Cheng

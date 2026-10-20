@@ -1,0 +1,11 @@
+# Versions observed during release validation.
+# Clean installation still needs validation.
+# Analysis only; does not install the inference toolbox.
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+matplotlib==3.10.9
+statsmodels==0.14.6
+tqdm==4.67.3
+Pillow==12.1.1

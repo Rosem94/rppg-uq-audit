@@ -1,0 +1,51 @@
+In-distribution DLCN-trained -> DLCN test (participant-disjoint)
+pickle: mc_results\dlcn_indist_dlcn_test_n20.pkl
+chunks: 1320/1320 valid; participants: 15 [84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98]
+Aggregate MAE 2.173 BPM (std 6.391); mean sigma 0.1181
+HR true mean 93.2, range [56.2, 135.0]
+
+--- Per held-out participant ---
+ subject_num  n_chunks    mae  sigma
+          84        88 0.7670 0.1044
+          85        88 1.7898 0.1301
+          86        88 3.9631 0.1337
+          87        88 4.3466 0.1383
+          88        88 2.4290 0.1083
+          89        88 1.1506 0.1169
+          90        88 1.0227 0.1123
+          91        88 1.7898 0.1148
+          92        88 1.1506 0.1191
+          93        88 4.3466 0.1294
+          94        88 1.0227 0.1104
+          95        88 3.5795 0.1232
+          96        88 1.2784 0.1132
+          97        88 2.4290 0.1082
+          98        88 1.5341 0.1097
+
+--- Cells by light ---
+ light  n_chunks  n_subj   mae  sigma
+     1       330      15 1.398 0.1061
+     2       330      15 1.705 0.1171
+     3       330      15 2.011 0.1187
+     4       330      15 3.580 0.1306
+[light] cells with n>=10: 4/4; MAE ratio 2.56x, sigma ratio 1.23x, eta = 2.08
+
+--- Cells by state ---
+ state  n_chunks  n_subj   mae  sigma
+     1       660      15 1.739 0.1187
+     2       660      15 2.608 0.1176
+[state] cells with n>=10: 2/2; MAE ratio 1.50x, sigma ratio 1.01x, eta = 1.49
+
+--- Cells by lightxstate ---
+ light  state  n_chunks  n_subj   mae  sigma
+     1      1       165      15 1.295 0.1072
+     1      2       165      15 1.500 0.1051
+     2      1       165      15 1.159 0.1166
+     2      2       165      15 2.250 0.1176
+     3      1       165      15 1.841 0.1196
+     3      2       165      15 2.182 0.1178
+     4      1       165      15 2.659 0.1313
+     4      2       165      15 4.500 0.1299
+[lightxstate] cells with n>=10: 8/8; MAE ratio 3.88x, sigma ratio 1.25x, eta = 3.11
+
+Chunk-level Spearman rho(sigma, |err|) = 0.201

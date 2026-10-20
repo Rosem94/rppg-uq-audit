@@ -1,0 +1,9 @@
+backbone,dataset,config,n_per_cell,het_full,worst_cell,mae_rho1,mae_naive,mae_mondrian,mae_cellmae,vs_random_mondrian,vs_random_cellmae,benefit_mondrian,benefit_cellmae,abst,abst_cellmae
+physformer,DLCN,dlcn_state,119.4,1.728,"(2,)",8.106,8.753,6.231,5.923,1.875,2.183,2.522,2.83,0.502,0.546
+physformer,DLCN,dlcn_light,59.7,1.894,"(4,)",8.106,8.753,7.361,6.899,0.745,1.206,1.392,1.854,0.479,0.633
+physformer,DLCN,dlcn_light_state,29.8,3.339,"(4, 2)",8.106,8.753,6.873,6.058,1.233,2.048,1.88,2.695,0.665,0.644
+physformer,MMPD,mmpd_state,58.8,1.455,"(4,)",16.661,17.994,17.36,16.689,-0.699,-0.028,0.634,1.305,0.491,0.668
+physformer,MMPD,mmpd_light,58.8,1.137,"(4,)",16.661,17.994,17.454,17.87,-0.793,-1.208,0.54,0.124,0.294,0.274
+physformer,MMPD,mmpd_skin,58.8,1.511,"(6,)",16.661,17.994,15.827,15.576,0.834,1.085,2.166,2.418,0.538,0.516
+physformer,MMPD,mmpd_skin_state,14.7,4.826,"(6, 4)",16.661,17.994,16.687,15.879,-0.026,0.783,1.306,2.115,0.505,0.9
+physformer,MMPD,mmpd_light_state,14.7,2.566,"(4, 4)",16.661,17.994,17.249,16.727,-0.587,-0.066,0.745,1.267,0.536,0.95

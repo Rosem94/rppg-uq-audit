@@ -1,0 +1,94 @@
+{
+  "input": "results\\day_r1_matched\\mmpd_physformer_per_trial_lacp.csv",
+  "n_trials": 647,
+  "dual_annotated_subjects": [
+    "subject24"
+  ],
+  "n_boot": 20000,
+  "n_perm": 20000,
+  "seed": 0,
+  "primary_3_minus_6": {
+    "n_subjects": [
+      17,
+      6
+    ],
+    "excluded_overlap": [],
+    "pooled": {
+      "estimate": 0.12666403286978523,
+      "ci": [
+        0.025949171335200853,
+        0.23291594094902904
+      ],
+      "p_one_sided": 0.008899555022248887
+    },
+    "subject_mean": {
+      "estimate": 0.12674478270840495,
+      "ci": [
+        0.02597110730257005,
+        0.23299565805854497
+      ],
+      "p_one_sided": 0.009099545022748862
+    },
+    "gee": {
+      "coef": -1.258166155707454,
+      "robust_se": 0.4205948210462001,
+      "p": 0.0027770405235060655,
+      "implied_cov_diff": 0.13043806191990326
+    }
+  },
+  "pairwise": [
+    {
+      "contrast": "3-4",
+      "n_ref": 16,
+      "n_cmp": 4,
+      "excluded_overlap": "subject24",
+      "estimate_pp": 1.4496527777777768,
+      "ci_low_pp": -6.90352182539683,
+      "ci_high_pp": 12.234840029761884,
+      "p_one_sided": 0.36423178841057946,
+      "p_holm": 0.5214739263036848,
+      "reject_holm_0.05": false
+    },
+    {
+      "contrast": "3-5",
+      "n_ref": 17,
+      "n_cmp": 6,
+      "excluded_overlap": "",
+      "estimate_pp": 2.9079438793061074,
+      "ci_low_pp": -5.936593935819934,
+      "ci_high_pp": 15.679287065703463,
+      "p_one_sided": 0.2607369631518424,
+      "p_holm": 0.5214739263036848,
+      "reject_holm_0.05": false
+    },
+    {
+      "contrast": "3-6",
+      "n_ref": 17,
+      "n_cmp": 6,
+      "excluded_overlap": "",
+      "estimate_pp": 12.674478270840495,
+      "ci_low_pp": 2.597110730257005,
+      "ci_high_pp": 23.299565805854495,
+      "p_one_sided": 0.009099545022748862,
+      "p_holm": 0.027298635068246587,
+      "reject_holm_0.05": true
+    }
+  ],
+  "fitz6_walking": {
+    "coverage": 0.5636574074074074,
+    "ci": [
+      0.28703703703703703,
+      0.8368055555555557
+    ],
+    "n_subjects": 6,
+    "n_trials": 24,
+    "per_subject": {
+      "subject14": 0.0,
+      "subject15": 1.0,
+      "subject16": 0.438,
+      "subject26": 1.0,
+      "subject30": 0.583,
+      "subject8": 0.361
+    }
+  }
+}

@@ -1,0 +1,17 @@
+Input: results\day_r1_matched\mmpd_tscan_per_trial_lacp.csv
+Unique trials: 647
+Dual-annotated subjects: ['subject24']
+
+Fitzpatrick 3 minus 6, subjects 17 / 6
+  pooled       13.47 pp  95% CI [-1.71, 32.31]  one-sided permutation p = 0.0366
+  subject_mean 13.48 pp  95% CI [-1.70, 32.31]  one-sided permutation p = 0.0364
+  GEE coef -1.445  robust SE 0.680  p = 0.0336
+
+Pairwise contrasts (equal subject weight, Holm over 3):
+contrast  n_ref  n_cmp excluded_overlap  estimate_pp  ci_low_pp  ci_high_pp  p_one_sided  p_holm  reject_holm_0.05
+     3-4     16      4        subject24      10.7846    -2.0651     25.8431       0.0525  0.1092             False
+     3-5     17      6                        5.2914    -3.2687     15.0949       0.1201  0.1201             False
+     3-6     17      6                       13.4815    -1.6988     32.3056       0.0364  0.1092             False
+
+Fitzpatrick 6, walking: 0.611  95% CI [0.319, 0.875]  subjects 6
+  per subject: {'subject14': 0.5, 'subject15': 1.0, 'subject16': 0.0, 'subject26': 1.0, 'subject30': 0.75, 'subject8': 0.417}

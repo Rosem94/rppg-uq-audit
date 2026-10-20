@@ -1,0 +1,9 @@
+backbone,dataset,config,n_per_cell,het_full,worst_cell,mae_rho1,mae_naive,mae_mondrian,mae_cellmae,vs_random_mondrian,vs_random_cellmae,benefit_mondrian,benefit_cellmae,abst,abst_cellmae
+tscan,DLCN,dlcn_state,119.4,1.834,"(2,)",11.435,14.34,8.031,8.031,3.404,3.404,6.309,6.309,0.484,0.484
+tscan,DLCN,dlcn_light,59.7,4.17,"(4,)",11.435,14.34,8.647,7.456,2.787,3.979,5.693,6.884,0.653,0.653
+tscan,DLCN,dlcn_light_state,29.8,7.516,"(4, 2)",11.435,14.34,7.213,6.54,4.221,4.895,7.127,7.8,0.667,0.667
+tscan,MMPD,mmpd_state,58.8,3.396,"(4,)",18.977,14.586,13.848,12.147,5.129,6.83,0.738,2.439,0.279,0.28
+tscan,MMPD,mmpd_light,58.8,1.227,"(4,)",18.977,14.586,17.882,17.16,1.095,1.818,-3.296,-2.573,-0.238,0.082
+tscan,MMPD,mmpd_skin,58.8,1.964,"(6,)",18.977,14.586,14.85,13.624,4.127,5.353,-0.264,0.962,0.024,0.136
+tscan,MMPD,mmpd_skin_state,14.7,9.656,"(6, 4)",18.977,14.586,13.22,11.072,5.758,7.905,1.367,3.514,-0.094,0.019
+tscan,MMPD,mmpd_light_state,14.7,4.317,"(4, 4)",18.977,14.586,15.023,12.856,3.954,6.121,-0.437,1.73,0.292,0.393
