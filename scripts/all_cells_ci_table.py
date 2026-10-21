@@ -55,6 +55,10 @@ for r in rows:
     ci = "[%.2f, %.2f]" % (r[5], r[6]) if np.isfinite(r[5]) else "--"
     print("%d & %s & %d & %d & %.3f & %s \\\\" % (r[0], motion, r[2], r[3], r[4], ci))
 
+OUT_CSV = r"results/day_r1_matched/all_cells_ci.csv"
+pd.DataFrame(rows, columns=["skin", "motion", "n_subjects", "n_trials", "coverage", "ci_low", "ci_high"]).to_csv(OUT_CSV, index=False)
+print(f"\nSaved {OUT_CSV}")
+
 print("\n--- sanity check: all vs sum(motion) ---")
 for skin in sorted(collapsed[COL_FITZ].unique()):
     n_all = len(collapsed[collapsed[COL_FITZ] == skin])
