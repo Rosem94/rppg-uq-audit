@@ -101,9 +101,9 @@ def main():
                              sharex=True)
 
     draw_row(axes[0], dlcn, args.dlcn_label, args.dlcn_worst,
-             ("a", "b"), show_legend=True)
+             ("A", "B"), show_legend=True)
     draw_row(axes[1], mmpd, args.mmpd_label, args.mmpd_worst,
-             ("c", "d"), show_legend=False)
+             ("C", "D"), show_legend=False)
 
     for ax in axes[1]:
         ax.set_xlabel("Overall retention rate")

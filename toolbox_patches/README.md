@@ -1,8 +1,8 @@
 # rPPG-Toolbox modifications
 
-The inference results in `results/` were produced with
-[rPPG-Toolbox](https://github.com/ubicomplab/rPPG-Toolbox) at commit
-`1c6511f131bd52a1dd31255423b62439dae07cd7`, with the files in this folder copied over the toolbox tree.
+The patches in this directory were validated against upstream
+[rPPG-Toolbox](https://github.com/ubicomplab/rPPG-Toolbox) commit
+`b7500b848f84ad7f86e277b4612563b69f4f88f9`.
 Relative paths are preserved: `toolbox_patches/<path>` replaces `<path>` in the toolbox.
 
 | Toolbox path | Change |
@@ -19,9 +19,9 @@ Relative paths are preserved: `toolbox_patches/<path>` replaces `<path>` in the 
 | `neural_methods/trainer/__init__.py` | Registers the two trainers |
 
 ```bash
-git clone [https://github.com/ubicomplab/rPPG-Toolbox.git](https://github.com/ubicomplab/rPPG-Toolbox.git)
+git clone https://github.com/ubicomplab/rPPG-Toolbox.git
 cd rPPG-Toolbox
-git checkout 1c6511f131bd52a1dd31255423b62439dae07cd7
+git checkout b7500b848f84ad7f86e277b4612563b69f4f88f9
 cp -r /path/to/rppg-uq-audit/toolbox_patches/* .
 cp -r /path/to/rppg-uq-audit/tools .
 ```

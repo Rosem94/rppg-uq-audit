@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this code or these results, please cite the article."
 title: "rppg-uq-audit: code and per-trial results for cell-aware conformal prediction in rPPG"
-version: "1.0"
-date-released: "2026-10-20"
+version: "1.0.1"
+date-released: "2026-10-22"
 repository-code: "https://github.com/Rosem94/rppg-uq-audit"
 license: MIT
 authors:
