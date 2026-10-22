@@ -55,7 +55,7 @@ There are two levels. Level 1 needs only this repository: every table, statistic
 | Sec. IV-E3-E5, subject-level statistics | `scripts/subject_level_stats.py`, `scripts/subject_level_stats_bb.py` | `results/day_r1_matched/subject_level_stats_physnet/`, `results/day_r1_matched/subject_level_stats_tscan/`, `results/day_r1_matched/subject_level_stats_physformer/` |
 | Table VII, subject-cluster CIs | `scripts/all_cells_ci_table.py` | `results/day_r1_matched/mmpd_per_trial_lacp.csv` -> `results/day_r1_matched/all_cells_ci.csv` (all 20 skin x motion cells) |
 | Sec. IV-F, Fig. 3, aggregation, ensemble and heteroscedastic controls | `scripts/matched_sigma_analysis.py`, `scripts/matched_perseed_vs_ens.py`, `scripts/subsample_5pass_control.py`, `scripts/day10_ensemble_uq.py`, `scripts/analyze_dlcn_hetero.py`, `scripts/analyze_mmpd_hetero.py`, `scripts/make_fig6_matched.py` | `results/day10_ensemble/`, `results/day5_dlcn/`, `results/day_r1_matched/`, `results/day11_figs/` |
-| Sec. V-c, label corruption and missing labels | `scripts/label_sensitivity.py` | `results/day_r1_matched/` |
+| Secs. V-B and V-C, label corruption and missing labels | `scripts/label_sensitivity.py` | `results/day_r1_matched/` |
 | Table VIII, operating points | `scripts/operating_point.py` | `results/day_r1_matched/op_dlcn_ls/`, `results/day_r1_matched/op_mmpd_skin/` |
 | Supplementary figures | `scripts/make_fig2_calibration.py`, `scripts/make_fig3_cp_coverage.py` | `results/day3_dlcn_full/`, `results/day4_cp/` |
 | Splits and seeds | `scripts/export_conformal_splits.py`, `scripts/generate_mmpd_csv_splits.py`, `scripts/generate_mmpd_csv_splits_matched.py` | `splits/` |
