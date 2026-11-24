@@ -13,7 +13,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 CRITERIA = [
-    ("naive", "Naive (raw $\\sigma$) $\\equiv$ LA-CP", "#1f77b4"),
+    ("naive", "Naive (raw $\\sigma$) $\\equiv$ LACP", "#1f77b4"),
     ("mondrian_cp", "Mondrian-CP (cell-aware)", "#d62728"),
 ]
 
